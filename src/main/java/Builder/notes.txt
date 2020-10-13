@@ -1,0 +1,9 @@
+BUILDER pattern:
+
+- Utils pour construire des bojets quiv ont beaucoup de parametres et si on veut rendre l'objet immutable
+- Quand penser a utiliser le builder pattern?
+si la construction d'un objet est compliquee, avec beaucoup de setters... cela peut etre avantageux d'avoir un builder pattern.
+
+Le builder pattern aide aussi a resoudre un souci important: quel constructor utiliser?
+
+Builder Pattern permet d'eviter d'avoir une collection de constructors...
